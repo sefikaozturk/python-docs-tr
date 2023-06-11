@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Python 3.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-01 00:18+0000\n"
-"PO-Revision-Date: 2023-06-11 21:39+0300\n"
+"PO-Revision-Date: 2023-06-11 21:55+0300\n"
 "Last-Translator: \n"
 "Language-Team: TURKISH <python.docs.tr@gmail.com>\n"
 "Language: tr\n"
@@ -459,217 +459,217 @@ msgstr ":func:`get_shapepoly`"
 
 #: library/turtle.rst:1362
 msgid "Using events"
-msgstr ""
+msgstr "Etkinlikleri kullanma"
 
 #: library/turtle.rst:2435
 msgid ":func:`onclick`"
-msgstr ""
+msgstr ":func:`onclick`"
 
 #: library/turtle.rst:0
 msgid ":func:`onrelease`"
-msgstr ""
+msgstr ":func:`onrelease`"
 
 #: library/turtle.rst:2418
 msgid ":func:`ondrag`"
-msgstr ""
+msgstr ":func:`ondrag`"
 
 #: library/turtle.rst:1436
 msgid "Special Turtle methods"
-msgstr ""
+msgstr "Özel metotlar"
 
 #: library/turtle.rst:0
 msgid ":func:`begin_poly`"
-msgstr ""
+msgstr ":func:`begin_poly`"
 
 #: library/turtle.rst:0
 msgid ":func:`end_poly`"
-msgstr ""
+msgstr ":func:`end_poly`"
 
 #: library/turtle.rst:0
 msgid ":func:`get_poly`"
-msgstr ""
+msgstr ":func:`get_poly`"
 
 #: library/turtle.rst:2457
 msgid ":func:`clone`"
-msgstr ""
+msgstr ":func:`clone`"
 
 #: library/turtle.rst:0
 msgid ":func:`getturtle` | :func:`getpen`"
-msgstr ""
+msgstr ":func:`getturtle` | :func:`getpen`"
 
 #: library/turtle.rst:0
 msgid ":func:`getscreen`"
-msgstr ""
+msgstr ":func:`getscreen`"
 
 #: library/turtle.rst:0
 msgid ":func:`setundobuffer`"
-msgstr ""
+msgstr ":func:`setundobuffer`"
 
 #: library/turtle.rst:0
 msgid ":func:`undobufferentries`"
-msgstr ""
+msgstr ":func:`undobufferentries`"
 
 #: library/turtle.rst:191
 msgid "Methods of TurtleScreen/Screen"
-msgstr ""
+msgstr "TurtleScreen/Screen metotları"
 
 #: library/turtle.rst:1590
 msgid "Window control"
-msgstr ""
+msgstr "Pencere kontrolü"
 
 #: library/turtle.rst:0
 msgid ":func:`bgcolor`"
-msgstr ""
+msgstr ":func:`bgcolor`"
 
 #: library/turtle.rst:0
 msgid ":func:`bgpic`"
-msgstr ""
+msgstr ":func:`bgpic`"
 
 #: library/turtle.rst:0
 msgid ":func:`clearscreen`"
-msgstr ""
+msgstr ":func:`clearscreen`"
 
 #: library/turtle.rst:0
 msgid ":func:`resetscreen`"
-msgstr ""
+msgstr ":func:`resetscreen`"
 
 #: library/turtle.rst:0
 msgid ":func:`screensize`"
-msgstr ""
+msgstr ":func:`screensize`"
 
 #: library/turtle.rst:0
 msgid ":func:`setworldcoordinates`"
-msgstr ""
+msgstr ":func:`setworldcoordinates`"
 
 #: library/turtle.rst:1713
 msgid "Animation control"
-msgstr ""
+msgstr "Hareket kontrolü"
 
 #: library/turtle.rst:0
 msgid ":func:`delay`"
-msgstr ""
+msgstr ":func:`delay`"
 
 #: library/turtle.rst:0
 msgid ":func:`tracer`"
-msgstr ""
+msgstr ":func:`tracer`"
 
 #: library/turtle.rst:0
 msgid ":func:`update`"
-msgstr ""
+msgstr ":func:`update`"
 
 #: library/turtle.rst:1766
 msgid "Using screen events"
-msgstr ""
+msgstr "Ekran etkinliğini kullanma"
 
 #: library/turtle.rst:0
 msgid ":func:`listen`"
-msgstr ""
+msgstr ":func:`listen`"
 
 #: library/turtle.rst:0
 msgid ":func:`onkey` | :func:`onkeyrelease`"
-msgstr ""
+msgstr ":func:`onkey` | :func:`onkeyrelease`"
 
 #: library/turtle.rst:0
 msgid ":func:`onkeypress`"
-msgstr ""
+msgstr ":func:`onkeypress`"
 
 #: library/turtle.rst:0
 msgid ":func:`onclick` | :func:`onscreenclick`"
-msgstr ""
+msgstr ":func:`onclick` | :func:`onscreenclick`"
 
 #: library/turtle.rst:0
 msgid ":func:`ontimer`"
-msgstr ""
+msgstr ":func:`ontimer`"
 
 #: library/turtle.rst:0
 msgid ":func:`mainloop` | :func:`done`"
-msgstr ""
+msgstr ":func:`mainloop` | :func:`done`"
 
 #: library/turtle.rst:1911
 msgid "Settings and special methods"
-msgstr ""
+msgstr "Ayarlar ve özel metotlar"
 
 #: library/turtle.rst:0
 msgid ":func:`mode`"
-msgstr ""
+msgstr ":func:`mode`"
 
 #: library/turtle.rst:0
 msgid ":func:`colormode`"
-msgstr ""
+msgstr ":func:`colormode`"
 
 #: library/turtle.rst:0
 msgid ":func:`getcanvas`"
-msgstr ""
+msgstr ":func:`getcanvas`"
 
 #: library/turtle.rst:0
 msgid ":func:`getshapes`"
-msgstr ""
+msgstr ":func:`getshapes`"
 
 #: library/turtle.rst:0
 msgid ":func:`register_shape` | :func:`addshape`"
-msgstr ""
+msgstr ":func:`register_shape` | :func:`addshape`"
 
 #: library/turtle.rst:0
 msgid ":func:`turtles`"
-msgstr ""
+msgstr ":func:`turtles`"
 
 #: library/turtle.rst:0
 msgid ":func:`window_height`"
-msgstr ""
+msgstr ":func:`window_height`"
 
 #: library/turtle.rst:0
 msgid ":func:`window_width`"
-msgstr ""
+msgstr ":func:`window_width`"
 
 #: library/turtle.rst:1875
 msgid "Input methods"
-msgstr ""
+msgstr "Girdi metotları"
 
 #: library/turtle.rst:0
 msgid ":func:`textinput`"
-msgstr ""
+msgstr ":func:`textinput`"
 
 #: library/turtle.rst:0
 msgid ":func:`numinput`"
-msgstr ""
+msgstr ":func:`numinput`"
 
 #: library/turtle.rst:233
 msgid "Methods specific to Screen"
-msgstr ""
+msgstr "Screen’e özel metotlar"
 
 #: library/turtle.rst:0
 msgid ":func:`bye`"
-msgstr ""
+msgstr ":func:`bye`"
 
 #: library/turtle.rst:0
 msgid ":func:`exitonclick`"
-msgstr ""
+msgstr ":func:`exitonclick`"
 
 #: library/turtle.rst:0
 msgid ":func:`setup`"
-msgstr ""
+msgstr ":func:`setup`"
 
 #: library/turtle.rst:0
 msgid ":func:`title`"
-msgstr ""
+msgstr ":func:`title`"
 
 #: library/turtle.rst:236
 msgid "Methods of RawTurtle/Turtle and corresponding functions"
-msgstr ""
+msgstr "RawTurtle/Turtle metotları ve karşılık gelen fonksiyonlar"
 
 #: library/turtle.rst:238
 msgid ""
 "Most of the examples in this section refer to a Turtle instance called "
 "``turtle``."
-msgstr ""
+msgstr "Bu bölümdeki çoğu örnek ``turtle`` adında bir Turtle örneğidir."
 
 #: library/turtle.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "Parametreler"
 
 #: library/turtle.rst:292 library/turtle.rst:377 library/turtle.rst:423
 msgid "a number (integer or float)"
-msgstr ""
+msgstr "bir sayı (tam sayı veya ondalıklı sayı)"
 
 #: library/turtle.rst:249
 msgid ""
@@ -679,7 +679,7 @@ msgstr ""
 
 #: library/turtle.rst:473 library/turtle.rst:1256 library/turtle.rst:1275
 msgid "a number"
-msgstr ""
+msgstr "bir sayı"
 
 #: library/turtle.rst:271
 msgid ""
