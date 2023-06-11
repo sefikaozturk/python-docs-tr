@@ -2,31 +2,32 @@
 # Copyright (C) 2001-2023, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-01 00:18+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2023-06-11 21:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: TURKISH <python.docs.tr@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
 
 #: library/turtle.rst:3
 msgid ":mod:`turtle` --- Turtle graphics"
-msgstr ""
+msgstr ":mod:`turtle` --- Kaplumbağa grafikleri"
 
 #: library/turtle.rst:10
 msgid "**Source code:** :source:`Lib/turtle.py`"
-msgstr ""
+msgstr "**Kaynak kod:** :source:`Lib/turtle.py`"
 
 #: library/turtle.rst:20
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: library/turtle.rst:22
 msgid ""
@@ -34,6 +35,10 @@ msgid ""
 "was part of the original Logo programming language developed by Wally "
 "Feurzeig, Seymour Papert and Cynthia Solomon in 1967."
 msgstr ""
+"Günümüzde kaplumbağa grafikleri, çocuklara programlamayı tanıtmak için "
+"popüler bir yoldur.  İlk başta ise Wally Feurzeig, Seymour Papert ve Cynthia "
+"Solomon tarafından 1967 yılında geliştirilen orijinal Logo programlama "
+"dilinin bir parçasıydı."
 
 #: library/turtle.rst:26
 msgid ""
@@ -43,23 +48,34 @@ msgid ""
 "moves.  Give it the command ``turtle.right(25)``, and it rotates in-place 25 "
 "degrees clockwise."
 msgstr ""
+"Robotik bir kaplumbağa hayal edin, ve x-y düzleminde (0, 0) noktasından "
+"harekete başladığını düşünün.  ``import turtle`` komutundan sonra, ona "
+"``turtle.forward(15)`` komutunu verin ve o baktığı yönde 15 piksel hareket "
+"etsin (ekran üzerinde!), hareket ederken de bir çizgi çizsin.  Ona ``turtle."
+"right(25)`` komutunu verin ve yerinde saat yönünde 25 derece dönsün."
 
 #: library/turtle.rst:33
 msgid ""
 "Turtle can draw intricate shapes using programs that repeat simple moves."
 msgstr ""
+"Kaplumbağa, basit hareketlerin tekrarlandığı programları kullanarak karmaşık "
+"şekiller çizebilir."
 
 #: library/turtle.rst:41
 msgid ""
 "By combining together these and similar commands, intricate shapes and "
 "pictures can easily be drawn."
 msgstr ""
+"Bu ve benzeri komutları bir araya getirerek oldukça kolay bir şekilde "
+"karmaşık şekiller ve resimler çizilebilir."
 
 #: library/turtle.rst:44
 msgid ""
 "The :mod:`turtle` module is an extended reimplementation of the same-named "
 "module from the Python standard distribution up to version Python 2.5."
 msgstr ""
+"Mod:`turtle` modülü, Python 2.5 sürümüne kadar Python standart "
+"dağıtımlarındaki aynı adlı modülün genişletilmiş bir yeniden uygulamasıdır."
 
 #: library/turtle.rst:47
 msgid ""
@@ -68,6 +84,11 @@ msgid ""
 "programmer to use all the commands, classes and methods interactively when "
 "using the module from within IDLE run with the ``-n`` switch."
 msgstr ""
+"Yeni turtle modülü, eski turtle modülünün değerlerini korumaya ve onunla "
+"(neredeyse) 100% uyumlu olmaya çalışır.  İlk etapta programcı, modülü IDLE "
+"içerisinden kullanır ve IDLE’ı ``-n`` anahtarıyla çalıştırır. Modül "
+"sayesinde tüm komutları, sınıfları ve yöntemleri etkileşimli olarak "
+"kullanabilir."
 
 #: library/turtle.rst:52
 msgid ""
@@ -76,10 +97,14 @@ msgid ""
 "the underlying graphics, it needs a version of Python installed with Tk "
 "support."
 msgstr ""
+"Turtle modülü, hem nesne yönelimli hem de yordam (prosedür) yönelimli "
+"yollarla kaplumbağa grafik ilkelleri sağlar.  Temel grafikler için :mod:"
+"`tkinter` kullandığından, Tk desteğinin bulunduğu bir Python sürümüne "
+"ihtiyaç duyar."
 
 #: library/turtle.rst:56
 msgid "The object-oriented interface uses essentially two+two classes:"
-msgstr ""
+msgstr "Nesne yönelimli arayüz esasen iki+iki sınıf kullanır:"
 
 #: library/turtle.rst:58
 msgid ""
@@ -88,6 +113,10 @@ msgid ""
 "class:`ScrolledCanvas` as argument.  It should be used when :mod:`turtle` is "
 "used as part of some application."
 msgstr ""
+":class:`TurtleScreen` sınıfı, grafik pencerelerini kaplumbağalar için bir "
+"oyun alanı olarak tanımlar.  Yapıcısı argüman olarak bir :class:`tkinter."
+"Canvas` veya bir :class:`ScrolledCanvas` gerektirir.  Bazı uygulamaların bir "
+"parçası olarak :mod:`turtle` kullanıldığında bu yapıcı kullanılmalıdır."
 
 #: library/turtle.rst:63
 msgid ""
@@ -96,12 +125,18 @@ msgid ""
 "used as a standalone tool for doing graphics. As a singleton object, "
 "inheriting from its class is not possible."
 msgstr ""
+"Fonksiyon :func:`Screen` bir :class:`TurtleScreen` alt sınıfının tek "
+"nesnesini döndürür. Bu işlev, :mod:`turtle` grafik yapmak için bağımsız bir "
+"araç olarak kullanıldığında kullanılmalıdır. Bu nesne, sınıfının tek nesnesi "
+"olduğundan dolayı kendi sınıfından miras alamaz."
 
 #: library/turtle.rst:68
 msgid ""
 "All methods of TurtleScreen/Screen also exist as functions, i.e. as part of "
 "the procedure-oriented interface."
 msgstr ""
+"TurtleScreen/Screen'in tüm yöntemleri aynı zamanda fonksiyon olarak, yani "
+"yordam yönelimli arayüzün bir parçası olarak mevcuttur."
 
 #: library/turtle.rst:71
 msgid ""
@@ -110,6 +145,10 @@ msgid ""
 "ScrolledCanvas or TurtleScreen as argument, so the RawTurtle objects know "
 "where to draw."
 msgstr ""
+":class:`RawTurtle` (diğer adı: :class:`RawPen`) bir :class:`TurtleScreen` "
+"üzerinde çizim yapan Turtle nesnelerini tanımlar.  Yapıcısı argüman olarak "
+"bir Canvas, ScrolledCanvas veya TurtleScreen'e ihtiyaç duyar, RawTurtle "
+"nesneleri nereye çizeceğini bilmesini de bu sağlar."
 
 #: library/turtle.rst:75
 msgid ""
@@ -117,12 +156,17 @@ msgid ""
 "`Pen`), which draws on \"the\" :class:`Screen` instance which is "
 "automatically created, if not already present."
 msgstr ""
+"RawTurtle`dan türetilen :class:`Turtle` alt sınıfı (diğer adı: :class:"
+"`Pen`), halihazırda mevcut değilse otomatik olarak oluşturulan \"the\" :"
+"class:`Screen` örneği üzerinde çizim yapar."
 
 #: library/turtle.rst:79
 msgid ""
 "All methods of RawTurtle/Turtle also exist as functions, i.e. part of the "
 "procedure-oriented interface."
 msgstr ""
+"RawTurtle/Turtle'ın tüm yöntemleri fonksiyon olarak da mevcuttur, yani "
+"yordam yönelimli arayüzün bir parçasıdır."
 
 #: library/turtle.rst:82
 msgid ""
@@ -133,12 +177,20 @@ msgid ""
 "(unnamed) turtle object is automatically created whenever any of the "
 "functions derived from a Turtle method is called."
 msgstr ""
+"Yordamsal arayüz, :class:`Screen` ve :class:`Turtle` sınıflarının "
+"yöntemlerinden türetilen çeşitli işlevler sağlar.  Bunlar ilgili yöntemlerle "
+"aynı adlara sahiptir.  Bir Screen yönteminden türetilen bir fonksiyon "
+"çağrıldığında otomatik olarak bir screen nesnesi oluşturulur.  Bir Turtle "
+"yönteminden türetilen fonksiyonlardan herhangi biri çağrıldığında otomatik "
+"olarak bir (adsız) turtle nesnesi oluşturulur."
 
 #: library/turtle.rst:89
 msgid ""
 "To use multiple turtles on a screen one has to use the object-oriented "
 "interface."
 msgstr ""
+"Bir ekranda birden fazla kaplumbağa kullanmak için nesne yönelimli arayüz "
+"kullanılmalıdır."
 
 #: library/turtle.rst:92
 msgid ""
@@ -146,262 +198,264 @@ msgid ""
 "Methods, of course, have the additional first argument *self* which is "
 "omitted here."
 msgstr ""
+"Aşağıdaki dokümantasyonda fonksiyonlar için argüman listesi verilmiştir. "
+"Metotlar, ek olarak burada atlanan *self* ilk argümanına sahiptir."
 
 #: library/turtle.rst:98
 msgid "Overview of available Turtle and Screen methods"
-msgstr ""
+msgstr "Mevcut Turtle ve Screen yöntemlerine genel bakış"
 
 #: library/turtle.rst:101
 msgid "Turtle methods"
-msgstr ""
+msgstr "Turtle metotları"
 
 #: library/turtle.rst:242
 msgid "Turtle motion"
-msgstr ""
+msgstr "Kaplumbağa hareketi"
 
 #: library/turtle.rst:120
 msgid "Move and draw"
-msgstr ""
+msgstr "Hareket et ve çiz"
 
 #: library/turtle.rst:0
 msgid ":func:`forward` | :func:`fd`"
-msgstr ""
+msgstr ":func:`forward` | :func:`fd`"
 
 #: library/turtle.rst:0
 msgid ":func:`backward` | :func:`bk` | :func:`back`"
-msgstr ""
+msgstr ":func:`backward` | :func:`bk` | :func:`back`"
 
 #: library/turtle.rst:0
 msgid ":func:`right` | :func:`rt`"
-msgstr ""
+msgstr ":func:`right` | :func:`rt`"
 
 #: library/turtle.rst:0
 msgid ":func:`left` | :func:`lt`"
-msgstr ""
+msgstr ":func:`left` | :func:`lt`"
 
 #: library/turtle.rst:0
 msgid ":func:`goto` | :func:`setpos` | :func:`setposition`"
-msgstr ""
+msgstr ":func:`goto` | :func:`setpos` | :func:`setposition`"
 
 #: library/turtle.rst:0
 msgid ":func:`setx`"
-msgstr ""
+msgstr ":func:`setx`"
 
 #: library/turtle.rst:0
 msgid ":func:`sety`"
-msgstr ""
+msgstr ":func:`sety`"
 
 #: library/turtle.rst:0
 msgid ":func:`setheading` | :func:`seth`"
-msgstr ""
+msgstr ":func:`setheading` | :func:`seth`"
 
 #: library/turtle.rst:0
 msgid ":func:`home`"
-msgstr ""
+msgstr ":func:`home`"
 
 #: library/turtle.rst:2463
 msgid ":func:`circle`"
-msgstr ""
+msgstr ":func:`circle`"
 
 #: library/turtle.rst:0
 msgid ":func:`dot`"
-msgstr ""
+msgstr ":func:`dot`"
 
 #: library/turtle.rst:2441
 msgid ":func:`stamp`"
-msgstr ""
+msgstr ":func:`stamp`"
 
 #: library/turtle.rst:0
 msgid ":func:`clearstamp`"
-msgstr ""
+msgstr ":func:`clearstamp`"
 
 #: library/turtle.rst:0
 msgid ":func:`clearstamps`"
-msgstr ""
+msgstr ":func:`clearstamps`"
 
 #: library/turtle.rst:0
 msgid ":func:`undo`"
-msgstr ""
+msgstr ":func:`undo`"
 
 #: library/turtle.rst:0
 msgid ":func:`speed`"
-msgstr ""
+msgstr ":func:`speed`"
 
 #: library/turtle.rst:644
 msgid "Tell Turtle's state"
-msgstr ""
+msgstr "Kaplumbağa’nın durumunu söyle"
 
 #: library/turtle.rst:0
 msgid ":func:`position` | :func:`pos`"
-msgstr ""
+msgstr ":func:`position` | :func:`pos`"
 
 #: library/turtle.rst:0
 msgid ":func:`towards`"
-msgstr ""
+msgstr ":func:`towards`"
 
 #: library/turtle.rst:0
 msgid ":func:`xcor`"
-msgstr ""
+msgstr ":func:`xcor`"
 
 #: library/turtle.rst:0
 msgid ":func:`ycor`"
-msgstr ""
+msgstr ":func:`xcor`"
 
 #: library/turtle.rst:0
 msgid ":func:`heading`"
-msgstr ""
+msgstr ":func:`heading`"
 
 #: library/turtle.rst:0
 msgid ":func:`distance`"
-msgstr ""
+msgstr ":func:`distance`"
 
 #: library/turtle.rst:132
 msgid "Setting and measurement"
-msgstr ""
+msgstr "Konumlandırma ve ölçüm"
 
 #: library/turtle.rst:0
 msgid ":func:`degrees`"
-msgstr ""
+msgstr ":func:`degrees`"
 
 #: library/turtle.rst:0
 msgid ":func:`radians`"
-msgstr ""
+msgstr ":func:`radians`"
 
 #: library/turtle.rst:795
 msgid "Pen control"
-msgstr ""
+msgstr "Kalem kontrolü"
 
 #: library/turtle.rst:798
 msgid "Drawing state"
-msgstr ""
+msgstr "Çizim durumu"
 
 #: library/turtle.rst:0
 msgid ":func:`pendown` | :func:`pd` | :func:`down`"
-msgstr ""
+msgstr ":func:`pendown` | :func:`pd` | :func:`down`"
 
 #: library/turtle.rst:0
 msgid ":func:`penup` | :func:`pu` | :func:`up`"
-msgstr ""
+msgstr ":func:`penup` | :func:`pu` | :func:`up`"
 
 #: library/turtle.rst:0
 msgid ":func:`pensize` | :func:`width`"
-msgstr ""
+msgstr ":func:`pensize` | :func:`width`"
 
 #: library/turtle.rst:0
 msgid ":func:`pen`"
-msgstr ""
+msgstr ":func:`pen`"
 
 #: library/turtle.rst:0
 msgid ":func:`isdown`"
-msgstr ""
+msgstr ":func:`isdown`"
 
 #: library/turtle.rst:890
 msgid "Color control"
-msgstr ""
+msgstr "Renk kontrolü"
 
 #: library/turtle.rst:0
 msgid ":func:`color`"
-msgstr ""
+msgstr ":func:`color`"
 
 #: library/turtle.rst:0
 msgid ":func:`pencolor`"
-msgstr ""
+msgstr ":func:`pencolor`"
 
 #: library/turtle.rst:0
 msgid ":func:`fillcolor`"
-msgstr ""
+msgstr ":func:`fillcolor`"
 
 #: library/turtle.rst:1022
 msgid "Filling"
-msgstr ""
+msgstr "Doldurma"
 
 #: library/turtle.rst:0
 msgid ":func:`filling`"
-msgstr ""
+msgstr ":func:`filling`"
 
 #: library/turtle.rst:0
 msgid ":func:`begin_fill`"
-msgstr ""
+msgstr ":func:`begin_fill`"
 
 #: library/turtle.rst:0
 msgid ":func:`end_fill`"
-msgstr ""
+msgstr ":func:`end_fill`"
 
 #: library/turtle.rst:1069
 msgid "More drawing control"
-msgstr ""
+msgstr "Daha çok çizim kontrolü"
 
 #: library/turtle.rst:0
 msgid ":func:`reset`"
-msgstr ""
+msgstr ":func:`reset`"
 
 #: library/turtle.rst:0
 msgid ":func:`clear`"
-msgstr ""
+msgstr ":func:`clear`"
 
 #: library/turtle.rst:0
 msgid ":func:`write`"
-msgstr ""
+msgstr ":func:`write`"
 
 #: library/turtle.rst:1115
 msgid "Turtle state"
-msgstr ""
+msgstr "Kaplumbağanın durumu"
 
 #: library/turtle.rst:1118
 msgid "Visibility"
-msgstr ""
+msgstr "Gizlilik"
 
 #: library/turtle.rst:0
 msgid ":func:`showturtle` | :func:`st`"
-msgstr ""
+msgstr ":func:`showturtle` | :func:`st`"
 
 #: library/turtle.rst:0
 msgid ":func:`hideturtle` | :func:`ht`"
-msgstr ""
+msgstr ":func:`hideturtle` | :func:`ht`"
 
 #: library/turtle.rst:0
 msgid ":func:`isvisible`"
-msgstr ""
+msgstr ":func:`isvisible`"
 
 #: library/turtle.rst:1157
 msgid "Appearance"
-msgstr ""
+msgstr "Görünüm"
 
 #: library/turtle.rst:0
 msgid ":func:`shape`"
-msgstr ""
+msgstr ":func:`shape`"
 
 #: library/turtle.rst:0
 msgid ":func:`resizemode`"
-msgstr ""
+msgstr ":func:`resizemode`"
 
 #: library/turtle.rst:0
 msgid ":func:`shapesize` | :func:`turtlesize`"
-msgstr ""
+msgstr ":func:`shapesize` | :func:`turtlesize`"
 
 #: library/turtle.rst:0
 msgid ":func:`shearfactor`"
-msgstr ""
+msgstr ":func:`shearfactor`"
 
 #: library/turtle.rst:0
 msgid ":func:`settiltangle`"
-msgstr ""
+msgstr ":func:`settiltangle`"
 
 #: library/turtle.rst:0
 msgid ":func:`tiltangle`"
-msgstr ""
+msgstr ":func:`tiltangle`"
 
 #: library/turtle.rst:0
 msgid ":func:`tilt`"
-msgstr ""
+msgstr ":func:`tilt`"
 
 #: library/turtle.rst:0
 msgid ":func:`shapetransform`"
-msgstr ""
+msgstr ":func:`shapetransform`"
 
 #: library/turtle.rst:0
 msgid ":func:`get_shapepoly`"
-msgstr ""
+msgstr ":func:`get_shapepoly`"
 
 #: library/turtle.rst:1362
 msgid "Using events"
@@ -1225,10 +1279,9 @@ msgstr ""
 msgid ""
 "Set turtle shape to shape with given *name* or, if name is not given, return "
 "name of current shape.  Shape with *name* must exist in the TurtleScreen's "
-"shape dictionary.  Initially there are the following polygon shapes: "
-"\"arrow\", \"turtle\", \"circle\", \"square\", \"triangle\", \"classic\".  "
-"To learn about how to deal with shapes see Screen method :func:"
-"`register_shape`."
+"shape dictionary.  Initially there are the following polygon shapes: \"arrow"
+"\", \"turtle\", \"circle\", \"square\", \"triangle\", \"classic\".  To learn "
+"about how to deal with shapes see Screen method :func:`register_shape`."
 msgstr ""
 
 #: library/turtle.rst:1181
